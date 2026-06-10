@@ -210,70 +210,8 @@ Trigger when fully visible.
 
 ---
 
-### transition
 
-Controls animation timing and behavior.
 
-```tsx
-transition={{
-  duration: 0.8,
-  ease: "easeOut",
-}}
-```
-
-#### duration
-
-Controls how long the animation lasts.
-
-```tsx
-duration: 0.3
-```
-
-Fast
-
-```tsx
-duration: 0.8
-```
-
-Smooth
-
-```tsx
-duration: 2
-```
-
-Slow
-
----
-
-#### ease
-
-Controls animation speed curves.
-
-```tsx
-ease: "linear"
-```
-
-Constant speed
-
-```tsx
-ease: "easeIn"
-```
-
-Slow → Fast
-
-```tsx
-ease: "easeOut"
-```
-
-Fast → Slow
-
-```tsx
-ease: "easeInOut"
-```
-
-Slow → Fast → Slow
-
----
 
 ## 🎨 Common Reveal Effects 
 
